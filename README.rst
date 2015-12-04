@@ -17,8 +17,8 @@ Getting Started
 
    $ pip install -r requirements.txt
 
-4. Run the system-test notebook by running ``ipython
-   notebook``, clicking ``system-test.ipynb``, clicking
-   "run", and making sure there are no errors::
+4. Run the system-test notebook by running ``ipython notebook``, clicking
+   ``system-test.ipynb``, clicking *Cell* -> *Run All*, and making sure
+   there are no errors::
 
    $ ipython notebook
