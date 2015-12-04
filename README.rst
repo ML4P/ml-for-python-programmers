@@ -4,15 +4,20 @@ Machine Learning for Python Programmers
 Getting Started
 ---------------
 
-1. Setup a virtual environment::
+1. Setup a Python virtual environment::
 
-   $ virtualenv env
+    $ virtualenv env
 
-2. Install the requirements::
+2. Activate the Python virtual environment (note: you'll need to do this each
+   time you open a new shell)::
+
+    $ . env/bin/activate
+
+3. Install the requirements::
 
    $ pip install -r requirements.txt
 
-3. Run the system-test notebook by running ``ipython
+4. Run the system-test notebook by running ``ipython
    notebook``, clicking ``system-test.ipynb``, clicking
    "run", and making sure there are no errors::
 
