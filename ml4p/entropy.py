@@ -1,6 +1,8 @@
 import textwrap
 from numpy.random import RandomState
 
+__all__ = ["Entropy"]
+
 def _entropy_mk_method(name):
     orig_func = RandomState.__dict__[name]
 
